@@ -9,6 +9,7 @@ npm i react-navigation
 expo i react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view 
 npm i react-navigation-stack @react-native-community/masked-view 
 
+
 errors
 rm -r node_modules
 rm package-lock.json 
