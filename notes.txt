@@ -5,10 +5,10 @@ API Key
 DIDsJ1l2_5BQN8wCyyMedHm9V3e047Jr1ZZ4VDQcnSGknzCuubQDoyBS0a-bt3aGXJ4QC2SGH61qaH7oRFffxV4fUkaxa9svaK3WUafRywitswoF4Z6r5C2KEx1vXnYx
 
 
-npm i react-navigation
-expo i react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view 
-npm i react-navigation-stack @react-native-community/masked-view 
-
+npm install react-navigation
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view 
+npm install react-navigation-stack @react-native-community/masked-view 
+npm install react-navigation-stack @react-native-community/masked-view 
 
 errors
 rm -r node_modules
