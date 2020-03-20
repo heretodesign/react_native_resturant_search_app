@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Image, Text, StyleSheets } from 'react-native'
+import { View, Image, Text, StyleSheet } from 'react-native'
+
 
 const ResultsDetail = ({ result }) => {
         return (
@@ -8,8 +9,8 @@ const ResultsDetail = ({ result }) => {
                 style={styles.image} 
                 source={{ uri: result.image_url }} 
             />
-            <Text style={styles.name}>Results: {results.name}</Text>
-            <Text>{result.rating} Stars, {results.review_count}</Text>
+            <Text style={styles.name}>Results: {result.name}</Text>
+            <Text>{result.rating} Stars, {result.review_count}</Text>
         </View>
         )
 }
