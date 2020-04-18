@@ -9,7 +9,7 @@ const ResultsDetail = ({ result }) => {
                 style={styles.image} 
                 source={{ uri: result.image_url }} 
             />
-            <Text style={styles.name}>Results: {result.name}</Text>
+            <Text style={styles.name}>Results: {result.name}</Text> 
             <Text>{result.rating} Stars, {result.review_count}</Text>
         </View>
         )
